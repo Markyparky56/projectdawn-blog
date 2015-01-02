@@ -1,0 +1,13 @@
+<h3>About Me</h3>
+
+<p>
+I'm a student studying Computer Games Technology at Abertay University in Dundee, Scotland.  
+This Blog/Site is intended to allow me to share my ramblings, findings and act as a portfolio of my work
+throughout my studies and beyond.</p>
+
+<h3>Recent Posts</h3>
+<ul>
+    {% for post in site.posts limit: 5 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

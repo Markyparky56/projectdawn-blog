@@ -1,0 +1,10 @@
+name:           "ProjectDawn Blog"
+description:    "Ramblings of an ambitious student"
+
+url:            "http://localhost:4000"
+
+paginate:       10
+
+markdown:       redcarpet
+permalink:      pretty
+highlighter:    pygments
